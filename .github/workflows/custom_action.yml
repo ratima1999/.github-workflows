@@ -1,0 +1,9 @@
+name: Expressions implementation
+on: push
+env:
+  appName: CounterApp
+
+jobs:
+  build_job:
+    runs-on: windows-latest
+    steps:
